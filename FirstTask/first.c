@@ -4,12 +4,12 @@
  
 MODULE_LICENSE("GPL");
  
-static int __init simple_init(void){
+static int __init first_init(void){
    printk(KERN_INFO "Hello from kernel\n");
    return 0;
 }
 
-static void __exit simple_exit(void){
+static void __exit first_exit(void){
    printk(KERN_INFO "See you soon!\n");
 }
  
