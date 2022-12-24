@@ -15,6 +15,6 @@ int main(){
 	if (id < 0) return 1;
 	ap2 = (char*) shmat(id, 0, 0);
 	
-	printf ("shared memory attached value %s\n", ap2);
+	printf ("conn output %s\n", ap2);
 
 }
